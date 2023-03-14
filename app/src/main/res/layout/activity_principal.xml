@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Principal">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/grupo2"
+        />
+
+    <Button
+        android:id="@+id/btn_detalles"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:text="@string/detalles"
+        android:textSize="28sp"
+        android:background="@drawable/round_button"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/btn_globos"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:text="@string/globos"
+        android:textSize="28sp"
+        android:background="@drawable/round_button"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btn_peluches"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:text="@string/peluches"
+        android:textSize="28sp"
+        android:background="@drawable/round_button"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btn_regalos"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:text="@string/regalos"
+        android:textSize="28sp"
+        android:background="@drawable/round_button"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btn_tazas"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:text="@string/tazas"
+        android:textSize="28sp"
+        android:background="@drawable/round_button"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>
