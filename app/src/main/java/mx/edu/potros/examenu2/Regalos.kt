@@ -11,7 +11,7 @@ class Regalos : AppCompatActivity() {
         setContentView(R.layout.activity_regalos)
 
         var catalogoOption: String? = intent.getStringExtra("catalogoType")
-        cargarArticulos()
+        cargarArticulos(catalogoOption)
 
     }
 
@@ -59,7 +59,11 @@ class Regalos : AppCompatActivity() {
         }
     }
 
-    class DetallesAdapter: BaseAdapter{
-        var 
+    private class DetallesAdapter: BaseAdapter {
+        var detalles = 
+
     }
+
+
 }
+
